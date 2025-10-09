@@ -13,3 +13,6 @@ a.navigation:link, a.navigation:visited {
     color: #ffffff;
     text-decoration: none;
 }
+body {
+    font-family: Verdana, sans-serif;
+}
