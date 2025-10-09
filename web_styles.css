@@ -2,7 +2,7 @@ menu.nav_bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #333333;
+    background-color: #DBECFF;
     display: flex;
     justify-content: center;
 }
@@ -10,7 +10,7 @@ menu.nav_bar {
     padding: 1em;
 }
 a.nav_link:link, a.nav_link:visited {
-    color: #ffffff;
+    color: #06274E;
     text-decoration: none;
 }
 body {
