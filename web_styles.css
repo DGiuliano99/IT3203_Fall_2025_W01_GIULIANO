@@ -8,10 +8,14 @@ menu.nav_bar {
 }
 .nav_bar li {
     padding: 1em;
+    text-align: center;
 }
 a.nav_link:link, a.nav_link:visited {
     color: #06274E;
     text-decoration: none;
+}
+a.nav_link:hover {
+    font-weight: bold;
 }
 body {
     font-family: Verdana, sans-serif;
