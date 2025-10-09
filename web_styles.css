@@ -6,3 +6,9 @@ menu {
     display: flex;
     justify-content: center;
 }
+a.navigation:link {
+    color: #ffffff;
+}
+a.navigation:visited {
+    color: #ffffff;
+}
