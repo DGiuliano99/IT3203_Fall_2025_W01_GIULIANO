@@ -16,3 +16,6 @@ a.nav_link:link, a.nav_link:visited {
 body {
     font-family: Verdana, sans-serif;
 }
+footer {
+    font-size: .5em;
+}
