@@ -9,7 +9,7 @@ menu.nav_bar {
 .nav_bar li {
     padding: 1em;
 }
-a.navigation:link, a.navigation:visited {
+a.nav_link:link, a.nav_link:visited {
     color: #ffffff;
     text-decoration: none;
 }
