@@ -34,7 +34,10 @@ table.vers {
 table.info {
     border: 1px solid;
 }
-.info td {
+table.info td {
     text-align: left;
     padding-right: 1em;
+}
+h2.title {
+    font-family: Verdana, sans-serif;
 }
