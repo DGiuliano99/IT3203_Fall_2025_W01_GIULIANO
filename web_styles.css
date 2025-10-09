@@ -1,14 +1,19 @@
-menu {
+menu.nav_bar {
     list-style-type: none;
     margin: 0;
-    padding: 1em;
+    padding: 0;
     background-color: #333333;
     display: flex;
     justify-content: center;
 }
+.nav_bar li {
+    padding: 1em;
+}
 a.navigation:link {
     color: #ffffff;
+    text-decoration: none;
 }
 a.navigation:visited {
     color: #ffffff;
+    text-decoration: none;
 }
