@@ -23,3 +23,18 @@ body {
 footer {
     font-size: .5em;
 }
+table.vers {
+    border: 1px solid;
+}
+.vers th {
+    text-align: left;
+    padding-right: 1em;
+    border-bottom: solid;
+}
+table.info {
+    border: 1px solid;
+}
+.info td {
+    text-align: left;
+    padding-right: 1em;
+}
