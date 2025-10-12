@@ -5,9 +5,9 @@
     <title>REST APIs | GIULIANO</title> <!-- assign page title, shown in browser -->
 </head>
 <body>
-<header >
-    <h2 class="title">The Creation and Development of HTTP</h2>
-    <h5 class="title">Dylan Giuliano</h5> <!-- site title -->
+<header>
+    <a class="title" href="index.html">The Creation and Development of HTTP</a> <!--dynamic site title with link to home page-->
+    <a class="subtitle" href="index.html">Dylan Giuliano</a>
 </header>
 <menu class="nav_bar"> <!-- create navigation menu using stylesheet -->
     <li><a class="nav_link" href="index.html">Home</a></li>
@@ -19,28 +19,37 @@
 </menu>
 <h3>REST API&#39s and HTTP Requests</h3> <!-- page title -->
 <hr>
-<p>HTTP requires consistent formatting to allow for cross compatibility, and for that reason both requests and responses have specific formatting requirements.
-    HTTP requests since version one have included the HTTP version the client is capable of reading. The request also includes the URL for the server resource.
-    This will allow the client to later lookup the IP of the resource.</p>
-<p>
-    HTTP requests include request headers, which are key pairs of information that contain additional data about the request. For &#34POST&#34 requests, there also may be a request body that is transmitted that contains the data payload to be uploaded to the server. HTTP responses are also subject to similar formatting requirements, however, have slightly different components.
-</p>
-<p>
-    HTTP requests are most used with Representation State Transfer (REST) Application Programming Interfaces (API). These are custom built scripts that are highly configurable to meet the needs of the system. Because these scripts are customizable, they can be crafted to accomplish a wide variety of business functions.
-</p>
+<div class="grid_div_alt"> <!--create divider for text image side by side-->
+    <div class="grid_contents"> <!--create divider for text content; left-->
+        <p>HTTP requires consistent formatting to allow for cross compatibility, and for that reason both requests and responses have specific formatting requirements.
+        HTTP requests since version one have included the HTTP version the client is capable of reading. The request also includes the URL for the server resource.
+        This will allow the client to later lookup the IP of the resource.</p>
+        <p>
+            HTTP requests include request headers, which are key pairs of information that contain additional data about the request. For &#34POST&#34 requests, there also may be a request body that is transmitted that contains the data payload to be uploaded to the server. HTTP responses are also subject to similar formatting requirements, however, have slightly different components.
+        </p>
+        <p>
+            HTTP requests are most used with Representation State Transfer (REST) Application Programming Interfaces (API). These are custom built scripts that are highly configurable to meet the needs of the system. Because these scripts are customizable, they can be crafted to accomplish a wide variety of business functions.
+        </p>
+    </div>
+    <div class="grid_contents"> <!--ccreate divider for image; right-->
+        <img src="/content/img/api_img_1.webp" alt="REST API Requests">
+    </div>
+</div>
+
+
 <p>
     This allows systems and applications to communicate with the server using POST and GET requests primarily to access and modify data on the server. These APIs can be used in conjunction with HyperText pages to create integrations. A major downside to REST APIs is that each individual application requires its own unique coding to be implemented.
 </p>
 <p>
     This contrasts with WebDAV which used a set of common protocols that allowed for increased interoperability between applications. This can lead to additional development time for new integrations.
 </p>
-<h4>HTTP Request Methods</h4>
-<table class="info">
+<h4>HTTP Request Methods</h4> <!--title for http methods table-->
+<table class="info"><!--create table-->
     <tr>
-        <th>Method</th>
+        <th>Method</th> <!--table headers-->
         <th>Description</th>
     </tr>
-    <tr>
+    <tr> <!--table contents-->
         <td>GET</td>
         <td>Contacts the server asking for information.</td>
     </tr>
@@ -58,8 +67,10 @@
     </tr>
 </table>
 
-<footer>
+<footer> <!--create page footer with image credit and link to class site.-->
+
     This site is part of a class project for Kennesaw State University's Fall 2025 IT 3203. For more details, please visit <a href="https://ksuweb.github.io/IT3203/">https://ksuweb.github.io/IT3203/</a>
+    <p>Image credit: https://www.seobility.net/en/wiki/HTTP_headers</p>
 </footer>
 </body>
 </html>

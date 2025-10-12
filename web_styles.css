@@ -1,4 +1,6 @@
+
 menu.nav_bar {
+/*creates styles for menu bar*/
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -7,56 +9,129 @@ menu.nav_bar {
     justify-content: center;
 }
 .nav_bar li {
+    /*creates styles for items*/
     padding: 1em;
     text-align: center;
 }
 a.nav_link:link, a.nav_link:visited {
+    /*creates styles for menu bar links*/
     color: #06274E;
     text-decoration: none;
 }
 a.nav_link:hover {
+    /*creates styles for menu bar link hover effect*/
     font-weight: bold;
 }
 body {
+    /*creates default style for body of all pages on site*/
     font-family: Verdana, sans-serif;
 }
 footer {
+    /*creates default styles for footers on all pages on site*/
     font-size: .5em;
 }
 table.vers {
+    /*creates styles for version table*/
     border: 1px solid;
 }
 .vers th {
+    /*creates styles for version table headers*/
     text-align: left;
     padding-right: 1em;
     border-bottom: solid;
 }
 table.info {
+    /*creates styles for about table */
     border: 1px solid;
 }
 table.info td {
+    /*creates styles for about table details*/
     text-align: left;
     padding-right: 1em;
 }
 h2.title {
+    /*creates styles for static site title*/
     font-family: Verdana, sans-serif;
     padding-bottom: 0;
     margin-bottom: 0;
 }
 h5.title {
+    /*creates styles for static site subtitle*/
     padding-top: 0.25em;
     margin-top: 0;
     margin-bottom: 0.5em;
 }
+div.grid_div_txt {
+    /*creates styles for text only divider for key concepts*/
+    display: grid;
+    grid-template-columns: 20% 80%;
+    place-items: normal;
+}
 div.grid_div {
+    /*creates styles for side by side*/
     display: grid;
     grid-template-columns: 33% 67%;
     place-items: center;
 }
 div.grid_contents {
+    /*creates styles for items in grid*/
     padding: 1em;
 }
 div.grid_contents img {
+    /*creates styles for images as items of grid*/
     max-width: 100%;
     height: auto;
+}
+div.grid_div_alt {
+    /*creates styles for alternate side by side*/
+    display: grid;
+    grid-template-columns: 67% 33%;
+    place-items: center;
+}
+img.main {
+    /*creates styles for main image*/
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+a.title {
+    /*creates styles for dynamic home link title*/
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+a.title:link, a.title:visited {
+    /*creates styles for dynamic home link title as link*/
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+a.subtitle:link, a.subtitle:visited {
+    /*creates styles for dynamic home link subtitle as link*/
+    display: block;
+    font-size: .83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    padding-top: 0.25em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+li.concepts {
+    /*creates styles for key concept spacing*/
+    padding-bottom: 1em;
 }
