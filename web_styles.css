@@ -48,3 +48,15 @@ h5.title {
     margin-top: 0;
     margin-bottom: 0.5em;
 }
+div.grid_div {
+    display: grid;
+    grid-template-columns: 33% 67%;
+    place-items: center;
+}
+div.grid_contents {
+    padding: 1em;
+}
+div.grid_contents img {
+    max-width: 100%;
+    height: auto;
+}
