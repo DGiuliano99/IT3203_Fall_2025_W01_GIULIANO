@@ -40,4 +40,11 @@ table.info td {
 }
 h2.title {
     font-family: Verdana, sans-serif;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+h5.title {
+    padding-top: 0.25em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
 }
