@@ -16,7 +16,46 @@
     <li><a class="nav_link" href="references.html">References and Resources</a></li>
     <li><a class="nav_link" href="about.html">About</a></li>
 </menu>
-<h3>REST APIs</h3> <!-- page title -->
+<h3>REST API&#39s and HTTP Requests</h3> <!-- page title -->
+<p>HTTP requires consistent formatting to allow for cross compatibility, and for that reason both requests and responses have specific formatting requirements.
+    HTTP requests since version one have included the HTTP version the client is capable of reading. The request also includes the URL for the server resource.
+    This will allow the client to later lookup the IP of the resource.</p>
+<p>
+    HTTP requests include request headers, which are key pairs of information that contain additional data about the request. For &#34POST&#34 requests, there also may be a request body that is transmitted that contains the data payload to be uploaded to the server. HTTP responses are also subject to similar formatting requirements, however, have slightly different components.
+</p>
+<p>
+    HTTP requests are most used with Representation State Transfer (REST) Application Programming Interfaces (API). These are custom built scripts that are highly configurable to meet the needs of the system. Because these scripts are customizable, they can be crafted to accomplish a wide variety of business functions.
+</p>
+<p>
+    This allows systems and applications to communicate with the server using POST and GET requests primarily to access and modify data on the server. These APIs can be used in conjunction with HyperText pages to create integrations. A major downside to REST APIs is that each individual application requires its own unique coding to be implemented.
+</p>
+<p>
+    This contrasts with WebDAV which used a set of common protocols that allowed for increased interoperability between applications. This can lead to additional development time for new integrations.
+</p>
+<h4>HTTP Request Methods</h4>
+<table class="info">
+    <tr>
+        <th>Method</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>Contacts the server asking for information.</td>
+    </tr>
+    <tr>
+        <td>POST</td>
+        <td>Contacts the server with information for the server to process.</td>
+    </tr>
+    <tr>
+        <td>UPDATE</td>
+        <td>Variant of POST; Contacts the server with database updates.</td>
+    </tr>
+    <tr>
+        <td>DELETE</td>
+        <td>Variant of POST; Contacts the server to delete database data.</td>
+    </tr>
+</table>
+
 <footer>
     This site is part of a class project for Kennesaw State University's Fall 2025 IT 3203. For more details, please visit <a href="https://ksuweb.github.io/IT3203/">https://ksuweb.github.io/IT3203/</a>
 </footer>
