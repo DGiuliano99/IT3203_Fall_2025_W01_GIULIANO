@@ -124,28 +124,28 @@ function get_result() { //define function get-result; presents final score to us
 }
 function reset_quiz() { //define function to restore quiz to originial function
     const button = quiz_space.children.namedItem("quiz_submit"); //set button as current submit button
-    quiz_space.removeChild(button) //
-    current_question = 0;
-    score = 0;
-    multi_score = 0;
-    get_question();
+    quiz_space.removeChild(button) //remove button from quiz divider
+    current_question = 0; //reset current question to 0
+    score = 0; //reset score counter to 0
+    multi_score = 0; //reset multi-score counter to 0
+    get_question(); //call get-question function
 }
-function advance_quiz() {
-    current_question++;
-    if (current_question < quiz_questions.length) {
-        get_question();
+function advance_quiz() { //define function to advance quiz to next question
+    current_question++; //iterate question counter
+    if (current_question < quiz_questions.length) { //if the next question is less than the total number in the quiz, then
+        get_question(); //get next question; call get-question function
     } else {
-        get_result();
+        get_result(); //get quiz results; call get-result function
     }
 }
-function check_fill_in() {
-    const question = quiz_questions[current_question];
-    const input = answer_space.children.namedItem("answer");
-    if (question.str_answer === input.value.toUpperCase()) {
-        score ++;
+function check_fill_in() { //define function to check fill in blank questions
+    const question = quiz_questions[current_question]; //set question as current question
+    const input = answer_space.children.namedItem("answer"); //set input to answer text box
+    if (question.str_answer === input.value.toUpperCase()) { //if answer matches answer key (uppercase to prevent casing errors), then
+        score ++; //iterate score
     }
-    answer_space.removeChild(input)
-    const button = submit_space.children.namedItem("quiz_submit");
-    submit_space.removeChild(button)
-    advance_quiz()
+    answer_space.removeChild(input) //remove textbox from answer space
+    const button = submit_space.children.namedItem("quiz_submit"); //Set button as submit button
+    submit_space.removeChild(button) //remove submit button from submit space.
+    advance_quiz() //call function advance quiz
 }
