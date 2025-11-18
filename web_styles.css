@@ -137,39 +137,34 @@ li.concepts {
     padding-bottom: 1em;
 }
 
-body.q_body {
-    /*  */
-    font-family: Verdana, sans-serif;
-    background-color: #a5b4e2;
-}
-div.quiz_space {
-    /*  */
+#quiz_space {
+    /* create quiz space styling */
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
-    background-color: darkcyan;
+    background-color: #aae8e8;
     border-radius: 5px;
     box-shadow: 0 0 10px gray;
 }
-h1.quiz_title {
-    /*  */
+#quiz_title {
+    /* create quiz title styling */
     font-family: Verdana, sans-serif;
     text-align: center;
     color: black;
     margin-bottom: 5em;
 }
 #q_space {
-    /*  */
+    /* create question space styling */
     margin-bottom: 20px;
 }
 #a_space {
-    /*  */
+    /* create answer divider styling */
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(2,1fr);
 }
 #quiz_submit {
-    /*  */
+    /* create submit quiz button styling */
     display: block;
     margin: 10px auto;
     padding: 10px 20px;
@@ -181,11 +176,11 @@ h1.quiz_title {
     align-self: center;
 }
 #quiz_submit:hover {
-    /*  */
+    /* create submit button hover code */
     background-color: #324a78;
 }
 #quiz_choice {
-    /*  */
+    /* create quiz button style */
     display: block;
     background-color: #06274E;
     color: white;
@@ -195,21 +190,25 @@ h1.quiz_title {
     padding: 5px 5px 5px 5px;
 }
 #quiz_choice:hover {
-    /*  */
+    /* create style for button while hovering */
     background-color: #324a78;
 }
 #selected_choice {
-    /*  */
+    /* create style for selected button */
     display: block;
-    background-color: #93298b;
+    background-color: #a5b4e2;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     padding: 5px 5px 5px 5px;
 }
-div.submit_choice {
-    /*  */
+#submit_choice {
+    /* create submit block style */
     display: block;
     text-align: center;
+}
+#extra-margin {
+    /*create extra margin for footer on quiz */
+    margin: 10px 0 10px 0;
 }
