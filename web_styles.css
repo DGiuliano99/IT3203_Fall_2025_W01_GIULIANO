@@ -8,10 +8,15 @@ menu.nav_bar {
     background-color: #DBECFF;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
 }
 .nav_bar li {
     /*creates styles for items*/
-    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: .25em 0 .25em 0;
     text-align: center;
 }
 a.nav_link:link, a.nav_link:visited {
@@ -211,4 +216,13 @@ li.concepts {
 #extra-margin {
     /*create extra margin for footer on quiz */
     margin: 10px 0 10px 0;
+}
+.flex-grid {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+.flex-grid-child {
+    flex: 1 1 auto;
+    max-width: 600px;
 }
