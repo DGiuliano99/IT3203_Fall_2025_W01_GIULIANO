@@ -230,7 +230,7 @@ li.concepts {
 @media screen and (min-width: 1200px) {
     .flex-grid-child {
         flex: 1 1 auto;
-        max-width: 600px;
+        max-width: 800px;
     }
 }
 @media screen and (max-width: 800px) {
