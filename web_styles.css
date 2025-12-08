@@ -144,7 +144,7 @@ li.concepts {
 
 #quiz_space {
     /* create quiz space styling */
-    max-width: 500px;
+    //max-width: 500px;
     margin: 0 auto;
     padding: 20px;
     background-color: #aae8e8;
@@ -230,12 +230,20 @@ li.concepts {
 @media screen and (min-width: 1200px) {
     .flex-grid-child {
         flex: 1 1 auto;
+        max-width: 1200px;
+    }
+    #quiz_space {
+        /* create quiz space styling */
         max-width: 800px;
     }
 }
 @media screen and (max-width: 800px) {
     .flex-grid-child {
         flex: 1 1 auto;
-        max-width: 300px;
+        max-width: 150px;
+    }
+    #quiz_space {
+        /* create quiz space styling */
+        max-width: 500px;
     }
 }
