@@ -239,8 +239,10 @@ li.concepts {
     }
 }
 @media screen and (max-device-width: 800px) {
-    body {
-        width: 400px;
+    html, body {
+        //width: 400px;
+        min-height: 100vh;
+        width: 100vw;
     }
     .flex-grid-child {
         flex: 1 1 auto;
