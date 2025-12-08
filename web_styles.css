@@ -222,7 +222,20 @@ li.concepts {
     gap: 1em;
     flex-wrap: wrap;
 }
-.flex-grid-child {
+/*.flex-grid-child {
     flex: 1 1 auto;
     max-width: 600px;
+}*/
+
+@media screen and (min-width: 1200px) {
+    .flex-grid-child {
+        flex: 1 1 auto;
+        max-width: 600px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .flex-grid-child {
+        flex: 1 1 auto;
+        max-width: 300px;
+    }
 }
