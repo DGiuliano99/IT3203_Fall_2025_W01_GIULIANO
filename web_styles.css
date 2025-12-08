@@ -263,7 +263,8 @@ li.concepts {
         font-size: 1.5em;
         display: flex;
         flex-wrap: wrap;
-        max-width: fit-content;
+        flex: 1 1 auto;
+        max-width: 25px;
         padding: .25em 0 .25em 0;
         text-align: center;
     }
