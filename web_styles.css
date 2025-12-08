@@ -238,7 +238,7 @@ li.concepts {
         text-align: center;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-device-width: 800px) {
     .flex-grid-child {
         flex: 1 1 auto;
         max-width: 150px;
