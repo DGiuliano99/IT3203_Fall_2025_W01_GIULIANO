@@ -1,24 +1,6 @@
 
 
-menu.nav_bar {
-/*creates styles for menu bar*/
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #DBECFF;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1em;
-}
-.nav_bar li {
-    /*creates styles for items*/
-    display: flex;
-    flex-wrap: wrap;
 
-    padding: .25em 0 .25em 0;
-    text-align: center;
-}
 a.nav_link:link, a.nav_link:visited {
     /*creates styles for menu bar links*/
     color: #06274E;
@@ -227,7 +209,7 @@ li.concepts {
     max-width: 600px;
 }*/
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 801px) {
     .flex-grid-child {
         flex: 1 1 auto;
         max-width: 1200px;
@@ -235,6 +217,25 @@ li.concepts {
     #quiz_space {
         /* create quiz space styling */
         max-width: 800px;
+    }
+    menu.nav_bar {
+        /*creates styles for menu bar*/
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #DBECFF;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+    .nav_bar li {
+        /*creates styles for items*/
+        display: flex;
+        flex-wrap: wrap;
+
+        padding: .25em 0 .25em 0;
+        text-align: center;
     }
 }
 @media screen and (max-width: 800px) {
@@ -245,5 +246,25 @@ li.concepts {
     #quiz_space {
         /* create quiz space styling */
         max-width: 500px;
+    }
+    menu.nav_bar {
+        /*creates styles for menu bar*/
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #DBECFF;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+    .nav_bar li {
+        /*creates styles for items*/
+        font-size: 1.5em;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: fit-content;
+        padding: .25em 0 .25em 0;
+        text-align: center;
     }
 }
