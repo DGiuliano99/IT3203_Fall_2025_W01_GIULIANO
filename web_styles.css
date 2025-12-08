@@ -240,7 +240,7 @@ li.concepts {
 }
 @media screen and (max-device-width: 800px) {
     body {
-        width: auto;
+        width: 400px;
     }
     .flex-grid-child {
         flex: 1 1 auto;
