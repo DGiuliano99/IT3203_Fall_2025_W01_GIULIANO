@@ -241,11 +241,11 @@ li.concepts {
 @media screen and (max-device-width: 800px) {
     .flex-grid-child {
         flex: 1 1 auto;
-        max-width: 150px;
+        max-width: 300px;
     }
     #quiz_space {
         /* create quiz space styling */
-        max-width: 500px;
+        max-width: 300px;
     }
     menu.nav_bar {
         /*creates styles for menu bar*/
